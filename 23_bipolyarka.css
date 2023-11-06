@@ -1,0 +1,118 @@
+body {
+    margin:0;
+    padding:0;
+    background-image: url("проект_3.png");
+    -webkit-background-size: cover;
+        -moz-background-size: cover;
+         -o-background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 16px;
+    color: beige;
+
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+.Logo, .Top_menu{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+.Top_menu li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+.Top_menu a{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color:aliceblue;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.Top_menu a:hover {
+    color: #db2c1f;
+}
+
+
+.Logo h1{
+    vertical-align: middle;
+    color:aliceblue;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.Logo a {
+    color:beige;
+    text-decoration: none;
+    vertical-align: middle;
+
+}
+
+.anketa{
+    width: 475px;
+    height: 550px;
+    margin: 40px auto;
+    background: rgba(51, 50, 50, 0.95);
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 8px;
+    
+}
+
+.about-us{
+    width: 80%;
+    margin: 10px auto;
+    background: rgba(99, 98, 98, 0.95);
+    color: beige;
+    padding: 15px;
+    font-family: Georgia, serif;
+    text-align: left;
+    font-size: 18px;
+    text-transform: none;
+    border-radius: 5px;
+
+}
+
+.about-anketa{
+    width: 80%;
+    margin: 10px auto;
+    background: rgba(99, 98, 98, 0.95);
+    color: beige;
+    padding: 15px;
+    font-family: Georgia, serif;
+    text-align: left;
+    font-size: 18px;
+    text-transform: none;
+    border-radius: 5px;
+
+}
+
+.about-text{
+    width: 80%;
+    margin: 10px auto;
+    background: rgba(99, 98, 98, 0.95);
+    color: beige;
+    padding: 15px;
+    font-family: Georgia, serif;
+    text-align: left;
+    font-size: 18px;
+    text-transform: none;
+    border-radius: 5px;
+
+}
+
+
+
