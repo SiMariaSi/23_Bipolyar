@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="23_bipolyarka.css">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body>
-   <nav class="navbar navbar-expand-sm navbar-dark bg-dark justify-self-center">
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark justify-self-center">
         <div class="container justify-content-center">
             <a href="https://simariasi.github.io/01_ADAPTIV/" class="navbar-brand">Identity V</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" 
@@ -43,71 +43,51 @@
             </div>
         </div>
     </nav>
-<div class="tropici" align="center">
+
+
+    <div class="container min-vh-100 d-flex justify-content-center align-items-center">
+        <form action="https://ya.ru/?"  name="UserEnter" target="_self">
             
-         
- <div class="palma">
-    <div class="anketa">
-        <table width="90%" align="center" border="0">
-    
+                <legend align="center"><b>Обратная связь</b></legend>
+            <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Ваше имя:</label>
+            <input type="text" class="form-control" id="exampleInputEmail1" name="name" placeholder="Ваши данные под защитой" aria-describedby="emailHelp">
         
-    
-            <tr>
-                <td>
-                       <div class="about-us"><h3 align="center">Обратная связь</h3></div>
-                        <form action="https://ya.ru/?" id="UserEnter" name="UserEnter" target="_self">
-                        <div class="about-anketa">
-                            <p>Имя: <input name="first_name"  type="Text" ></p>
-                            <p>Возраст: <input name="user_date" type="date" value="1900-01-01"></p>
-                        
-                        
-                            </p>
-                            <input name="function" type="hidden" value="page">
-                            <input name="page_id" type="hidden" value="3">
-                            
-                        
-                    
-    
-                            <p>Пол:
-                                <input name="gender" type="Radio" value="Female">Женский
-                                <input checked="" name="gender" type="Radio" value="Male">Мужской
-                                <input checked="" name="gender" type="Radio" value="Other">Другое
-                            
-                            </p>
-                        </div>
-                        <div class="about-text">
-                            <p align="center"> Напишите об ошибке,связанной с предоставленной информацией:
-                                
-                                <textarea cols="40" name="textarea" rows="6"></textarea>
-                            </p>
-                            
-                        </div>
-                        <p >
-                          
-                                <input name="Reset" type="Reset" value="Обновить">
-                            
-                            <input name="submit" type="Submit" value="Отправить">
-                        </p>
-    
-                    </form>
-                </td>
+            </div>
+            <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Желаемый никнейм:</label>
+            <input type="text" class="form-control" id="exampleInputPassword1" name="nickname" placeholder="Ваши данные под защитой">
+            </div>
+
+            <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Ваш пол:</label>
         
-            </tr>
-        
-        
-        
-       </table>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" id="girl" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                Женский
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" id="boy" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                <label class="form-check-label" for="flexRadioDefault2">
+                Мужской
+                </label>
+            </div>
+            </div>
+            <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Напишите об ошибке,связанной с предоставленной информацией:</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" name="text" placeholder="Напишите о всех проблемах,связанных с сайтом!" rows="6"></textarea>
+            </div>
+
+            <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+                <button type="submit" class="btn btn-primary ">Отправить</button>
+            </div>
+            
+        </form>
     </div>
 
- </div>
-</div>
-                    
-    
-    
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>   
-    
-   
-    
     
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </html>
